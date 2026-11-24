@@ -1,0 +1,31 @@
+.auth-page{min-height:100vh;background:#F3F5F9;color:#141B2D}
+.auth-shell{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 16px}
+.auth-card{width:min(100%,460px);background:#fff;border:1px solid #E1E6EF;border-radius:18px;padding:38px;box-shadow:0 18px 55px rgba(24,42,82,.09)}
+.auth-logo{justify-content:center;margin:0 auto 34px;width:max-content;color:#141B2D}
+.auth-heading{text-align:center;margin-bottom:26px}
+.auth-heading h1{font-size:clamp(25px,5vw,32px);margin-bottom:9px}
+.auth-heading p{color:#5B667E;font-size:14px}
+.auth-form{display:flex;flex-direction:column;gap:17px}
+.auth-form .field{gap:7px}
+.auth-form .field label{color:#29344D}
+.auth-form input:not([type=checkbox]){min-height:46px;border-radius:9px;padding:10px 13px;background:#fff;color:#141B2D}
+.password-control{position:relative}
+.password-control input{padding-right:60px!important}
+.password-toggle{position:absolute;right:9px;top:50%;transform:translateY(-50%);border:0;background:transparent;color:#2447D6;font:600 13px var(--font-body);cursor:pointer;padding:7px}
+.auth-options{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:-3px;font-size:13px}
+.auth-options a,.auth-footer a,.terms-label a{font-weight:600;text-decoration:none}
+.auth-options a:hover,.auth-footer a:hover,.terms-label a:hover{text-decoration:underline}
+.check-label{display:flex;align-items:flex-start;gap:8px;color:#4D5870;font-size:13px;cursor:pointer}
+.check-label input{width:16px;height:16px;flex:none;margin:1px 0 0;padding:0;border-radius:4px;accent-color:#2447D6}
+.terms-label{line-height:1.5}
+.auth-submit{width:100%;min-height:46px;border-radius:9px;font-size:14px}
+.auth-footer{text-align:center;color:#5B667E;font-size:13px;margin-top:24px}
+.auth-note{text-align:center;color:#747E93;font-size:12px;margin-top:20px}
+.auth-message{padding:10px 12px;border-radius:9px;background:#FBE0DE;color:#9D211B;font-size:13px}
+.auth-message.success{background:#DDF3E8;color:#0E7049}
+.prototype-reset{margin-top:20px;padding:14px;border:1px solid #D9DFEB;background:#F8FAFE;border-radius:10px;color:#4D5870;font-size:13px}
+.prototype-reset p{line-height:1.55}
+.prototype-reset code{display:block;color:#141B2D;font-size:18px;font-weight:700;letter-spacing:.12em;margin:10px 0}
+.prototype-reset .btn{margin-top:10px}
+.auth-disclaimer{margin-top:18px;color:#747E93;font-size:12px;line-height:1.5}
+@media(max-width:520px){.auth-shell{padding:20px 12px}.auth-card{padding:28px 21px;border-radius:14px}.auth-logo{margin-bottom:28px}}
